@@ -9,7 +9,7 @@ const {
 
 // Inicio del proyecto
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
@@ -25,10 +25,10 @@ const options = {
 };
 app.use(cors(options));
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   res.send('Hello, world from Express');
 });
-app.get('/new-route', (req, res) => {
+app.get('/api/new-route', (req, res) => {
   res.send(`Hi!!!, you're in other route`);
 });
 
