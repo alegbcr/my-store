@@ -12,7 +12,7 @@ const {
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.use(express.static(path.join(__dir + '/public')));
+app.use(express.static(path.join(__dirname + '/public')));
 app.use(express.json());
 
 const whitelist = ['http://localhost:3000', 'http://localhost:5173'];
@@ -27,9 +27,9 @@ const options = {
 };
 app.use(cors(options));
 
-app.get('/', (req, res) => {
-  res.send('Hello, world from Express');
-});
+// app.get('/', (req, res) => {
+//   res.send('Hello, world from Express');
+// });
 
 // app.get('/api/new-route', (req, res) => {
 //   res.send(`Hi!!!, you're in other route`);
