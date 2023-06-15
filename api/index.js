@@ -33,6 +33,7 @@ app.use(cors(options));
 // });
 
 // routing
+app.use('/', express.static('public'));
 routerApi(app);
 
 // middleware
