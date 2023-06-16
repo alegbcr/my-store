@@ -3,7 +3,7 @@ const path = require('path');
 const router = express.Router();
 
 // Servir archivos estáticos
-router.use(express.static('public'));
+router.use(express.static(path.join(__dirname, '../public')));
 
 // Home
 router.get('/', (req, res) => {
