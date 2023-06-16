@@ -8,9 +8,6 @@ const categoriesRouter = require('./categories.router');
 function routerApi(app) {
   const router = express.Router();
 
-  // Servir archivos estáticos
-  router.use(express.static('public'));
-
   // API REST
   app.use('/', router);
   router.use('/', homeRouter);
