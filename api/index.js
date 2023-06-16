@@ -24,7 +24,7 @@ const options = {
   },
 };
 app.use(cors(options));
-
+app.use(express.static('public'));
 // routing
 routerApi(app);
 
