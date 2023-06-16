@@ -28,7 +28,7 @@ const options = {
 app.use(cors(options));
 
 app.get('/', (req, res) => {
-  res.send('Hello, world from Express');
+  res.sendFile(__dirname + '/public/index.html');
 });
 
 // app.get('/api/new-route', (req, res) => {
