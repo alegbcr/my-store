@@ -13,7 +13,7 @@ const {
 const app = express();
 const port = process.env.PORT || 3000;
 
-router.use(express.static(path.join(__dirname, '/api/public')));
+router.use(express.static(path.join(__dirname, './public')));
 app.use(express.json());
 
 const whitelist = ['http://localhost:3000', 'http://localhost:5173'];
