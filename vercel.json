@@ -12,8 +12,8 @@
 
   "routes": [
     {
-      "src": "/main.css",
-      "dest": "/public/main.css"
+      "src": "/styles.css",
+      "dest": "/public/styles.css"
     }
   ],
 
