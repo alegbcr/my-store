@@ -1,5 +1,4 @@
 const express = require('express');
-const path = require('path');
 const cors = require('cors');
 const routerApi = require('./routes');
 const {
@@ -26,13 +25,9 @@ const options = {
 };
 app.use(cors(options));
 
-app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/index.html');
-});
-
 // routing
-app.use(express.static('public'));
 routerApi(app);
+app.use(express.static('public'));
 
 // middleware
 app.use(logErrors);
