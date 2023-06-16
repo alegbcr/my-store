@@ -27,9 +27,9 @@ const options = {
 };
 app.use(cors(options));
 
-// app.get('/', (req, res) => {
-//   res.send('Hello, world from Express');
-// });
+app.get('/', (req, res) => {
+  res.send('Hello, world from Express');
+});
 
 // app.get('/api/new-route', (req, res) => {
 //   res.send(`Hi!!!, you're in other route`);
