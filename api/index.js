@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
 });
 
 // routing
-app.use(express.static('/public'));
+app.use(express.static('public'));
 routerApi(app);
 
 // middleware
