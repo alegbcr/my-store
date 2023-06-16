@@ -1,6 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const routerApi = require('./routes');
+const path = require('path');
+
 const {
   logErrors,
   errorHandler,
@@ -11,7 +13,7 @@ const {
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.use(express.static('public'));
+router.use(express.static(path.join(__dirname, '/api/public')));
 app.use(express.json());
 
 const whitelist = ['http://localhost:3000', 'http://localhost:5173'];
