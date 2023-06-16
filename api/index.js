@@ -11,6 +11,7 @@ const {
 const app = express();
 const port = process.env.PORT || 3000;
 
+app.use(express.static('public'));
 app.use(express.json());
 
 const whitelist = ['http://localhost:3000', 'http://localhost:5173'];
@@ -24,7 +25,7 @@ const options = {
   },
 };
 app.use(cors(options));
-app.use(express.static('public'));
+
 // routing
 routerApi(app);
 
