@@ -1,5 +1,6 @@
 const express = require('express');
-const path = require('path');
+
+const homeRouter = require('./home.router');
 const productsRouter = require('./products.router');
 const usersRouter = require('./users.router');
 const categoriesRouter = require('./categories.router');
@@ -7,17 +8,14 @@ const categoriesRouter = require('./categories.router');
 function routerApi(app) {
   const router = express.Router();
 
-  // Home
-  router.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../', 'public', 'index.html'));
-  });
-
   // API REST
+  app.use('/', router);
+  router.use('/', homeRouter);
+
+  app.use('/api/v1', router);
   router.use('/products', productsRouter);
   router.use('/users', usersRouter);
   router.use('/categories', categoriesRouter);
-
-  app.use('/api/v1', router);
 }
 
 module.exports = routerApi;
