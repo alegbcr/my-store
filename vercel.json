@@ -9,14 +9,6 @@
       "destination": "/api"
     }
   ],
-
-  "routes": [
-    {
-      "source": "/styles.css",
-      "destination": "/public/styles.css"
-    }
-  ],
-
   "builds": [
     {
       "src": "/api/index.js",
