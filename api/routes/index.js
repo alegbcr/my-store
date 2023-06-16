@@ -1,5 +1,5 @@
 const express = require('express');
-const path = require('path');
+
 const homeRouter = require('./home.router');
 const productsRouter = require('./products.router');
 const usersRouter = require('./users.router');
@@ -9,7 +9,6 @@ function routerApi(app) {
   const router = express.Router();
 
   // Servir archivos estáticos
-  router.use(express.static(path.join(__dirname, '../public')));
 
   // API REST
   app.use('/', router);
