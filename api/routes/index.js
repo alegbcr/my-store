@@ -8,9 +8,7 @@ function routerApi(app) {
   const router = express.Router();
 
   // Home
-  router.get('/', (req, res) => {
-    res.sendFile(__dirname + '/public/index.html');
-  });
+  app.use(express.static('public'));
 
   // API REST
   app.use('/api/v1', router);

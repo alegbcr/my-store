@@ -27,7 +27,6 @@ app.use(cors(options));
 
 // routing
 routerApi(app);
-app.use(express.static('public'));
 
 // middleware
 app.use(logErrors);
