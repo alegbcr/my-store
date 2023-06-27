@@ -111,23 +111,23 @@ const productsData = [
 
 const categoriesData = [
   {
-    id: 1,
+    id: '58a1fc88-01fc-4dd7-8034-c76c80db67d0',
     name: 'pizzas',
   },
   {
-    id: 2,
+    id: '12a0d8f3-7c84-4d0b-4dd7-4c27e55a2d2e',
     name: 'pollo',
   },
   {
-    id: 3,
+    id: '13a0d8f3-7c84-4d0b-4dd7-c76c80db67d0',
     name: 'adicionales',
   },
   {
-    id: 4,
+    id: '14a0d8f3-7c84-4d0b-4dd7-4c27e55a2d2e',
     name: 'bebidas',
   },
   {
-    id: 5,
+    id: '15a0d8f3-7c84-4d0b-4dd7-c76c80db67d0',
     name: 'postres',
   },
 ];
@@ -194,5 +194,4 @@ module.exports = {
   productsData,
   categoriesData,
   usersData,
-  pizzasData,
 };

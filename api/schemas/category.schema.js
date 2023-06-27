@@ -1,6 +1,6 @@
 const Joi = require('joi');
 
-const id = Joi.number().integer();
+const id = Joi.string().uuid();
 const name = Joi.string().min(3).max(50);
 
 const createProductSchema = Joi.object({
