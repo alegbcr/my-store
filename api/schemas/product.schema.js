@@ -1,6 +1,6 @@
 const Joi = require('joi');
 
-const id = Joi.number().integer();
+const id = Joi.string().uuid();
 const category = Joi.string();
 const name = Joi.string().min(3).max(50);
 const description = Joi.string().min(3).max(50);

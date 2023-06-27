@@ -3,7 +3,7 @@
 
 const productsData = [
   {
-    id: 1,
+    id: '245e17ec-99e7-4265-9142-1d3k2c442169',
     name: 'Margarita',
     ingredients: 'Queso, tomate',
     descripcion: 'La clásica pizza Margarita',
@@ -11,7 +11,7 @@ const productsData = [
     price: 10.0,
   },
   {
-    id: 2,
+    id: '245e17ec-99e7-4265-4265-1d9d2c442169',
     name: 'Pepperoni',
     ingredients: 'Queso, pepperoni',
     descripcion: 'Deliciosa pizza de pepperoni',
@@ -19,7 +19,7 @@ const productsData = [
     price: 12.0,
   },
   {
-    id: 3,
+    id: '245e17ec-99e7-4265-9142-1d9d2c442169',
     name: 'Hawaiana',
     ingredients: 'Queso, jamón, piña',
     descripcion: 'Combinación tropical',
@@ -27,7 +27,7 @@ const productsData = [
     price: 11.0,
   },
   {
-    id: 4,
+    id: '245e17ec-4265-4265-9142-1d9d2c442169',
     name: 'Vegetariana',
     ingredients: 'Queso, vegetales',
     descripcion: 'Pizza saludable',
@@ -35,7 +35,7 @@ const productsData = [
     price: 9.0,
   },
   {
-    id: 5,
+    id: '245e17ec-99e7-4265-9142-1d9d2c442169',
     name: '4 Quesos',
     ingredients:
       'Queso gorgonzola, queso azul, queso mozzarella, queso parmesano',
@@ -44,7 +44,7 @@ const productsData = [
     precio: 14.0,
   },
   {
-    id: 6,
+    id: '24sl87ec-99e7-4265-9142-1d9d2c442169',
     name: 'Carnes Mixtas',
     ingredients: 'Queso, pepperoni, salchicha italiana, jamón, carne de res',
     descripcion: 'Una pizza cargada con una variedad de carnes',
@@ -52,7 +52,7 @@ const productsData = [
     price: 14.0,
   },
   {
-    id: 7,
+    id: '245e17ec-99e7-4265-9142-1d9d2c442169',
     name: 'Marinara',
     ingredients: 'Salsa de tomate, ajo, orégano',
     descripcion: 'Pizza simple y clásica sin queso',
@@ -60,7 +60,7 @@ const productsData = [
     price: 8.0,
   },
   {
-    id: 8,
+    id: '245e17ec-88e7-4265-9142-1d9d2c442169',
     name: 'Carnívora',
     ingredients: 'Queso, pepperoni, salchicha, tocino',
     descripcion: 'Una explosión de sabores de carne',
@@ -68,7 +68,7 @@ const productsData = [
     price: 15.0,
   },
   {
-    id: 9,
+    id: '245e17eciu9e7-4265-9142-1d9d2c442169',
     name: 'Caprese',
     ingredients: 'Queso mozzarella, tomate, albahaca fresca',
     descripcion: 'Una pizza ligera y fresca con sabores mediterráneos',
@@ -76,7 +76,7 @@ const productsData = [
     price: 11.0,
   },
   {
-    id: 10,
+    id: '245e17ec-99e7-4265-9142-1d9mjc442169',
     name: 'Mexicana',
     ingredients: 'Queso, carne molida, jalapeños, guacamole',
     descripcion: 'Una pizza picante con toques mexicanos',
@@ -84,7 +84,7 @@ const productsData = [
     price: 12.0,
   },
   {
-    id: 11,
+    id: '245e17ec-99e7-4265-7645-1d9d2c442169',
     name: 'Napolitana',
     ingredients: 'Queso mozzarella, anchoas, aceitunas',
     descripcion: 'Inspirada en la tradición napolitana',
@@ -92,7 +92,7 @@ const productsData = [
     price: 10.0,
   },
   {
-    id: 12,
+    id: '245e17ec-99e7-8283-9142-1d9d2c442169',
     name: 'Mediterranean',
     ingredients: 'Queso feta, aceitunas, tomates secos, espinacas',
     descripcion: 'Una pizza inspirada en los sabores del Mediterráneo',
@@ -100,7 +100,7 @@ const productsData = [
     price: 12.0,
   },
   {
-    id: 13,
+    id: '245e17ec-99e7-4265-9142-1d9d2c442108',
     name: 'Primavera',
     ingredients: 'Queso, espárragos, champiñones, cebolla roja',
     descripcion: 'Una pizza llena de ingredientes frescos y coloridos',
