@@ -7,7 +7,7 @@ const productsData = [
     name: 'Margarita',
     ingredients: 'Queso, tomate',
     descripcion: 'La clásica pizza Margarita',
-    image: 'https://i.postimg.cc/0N7C37v6/Margarita.png',
+    image: 'https://i.postimg.cc/766TMRhg/Margarita.png',
     price: 10.0,
   },
   {
@@ -15,7 +15,7 @@ const productsData = [
     name: 'Pepperoni',
     ingredients: 'Queso, pepperoni',
     descripcion: 'Deliciosa pizza de pepperoni',
-    image: 'https://i.postimg.cc/GhNJmXh8/Pepperoni.png',
+    image: 'https://i.postimg.cc/K8DN0dGV/Pepperoni.png',
     price: 12.0,
   },
   {
@@ -23,7 +23,7 @@ const productsData = [
     name: 'Hawaiana',
     ingredients: 'Queso, jamón, piña',
     descripcion: 'Combinación tropical',
-    image: 'https://i.postimg.cc/g2CDNNCF/Hawaiana.png',
+    image: 'https://i.postimg.cc/wx1w9f2y/Hawaiana.png',
     price: 11.0,
   },
   {
@@ -31,24 +31,15 @@ const productsData = [
     name: 'Vegetariana',
     ingredients: 'Queso, vegetales',
     descripcion: 'Pizza saludable',
-    image: 'https://i.postimg.cc/qMgxrP0H/Vegetariana.png',
+    image: 'https://i.postimg.cc/1tfr5XGh/Vegetariana.png',
     price: 9.0,
-  },
-  {
-    id: '245e17ec-99e7-4265-9142-1d9d2c442169',
-    name: '4 Quesos',
-    ingredients:
-      'Queso gorgonzola, queso azul, queso mozzarella, queso parmesano',
-    descripcion: 'Delicia para los amantes del queso',
-    imprice: 'https://i.postimg.cc/jdkvJsvj/4-Quesos.png',
-    precio: 14.0,
   },
   {
     id: '24sl87ec-99e7-4265-9142-1d9d2c442169',
     name: 'Carnes Mixtas',
     ingredients: 'Queso, pepperoni, salchicha italiana, jamón, carne de res',
     descripcion: 'Una pizza cargada con una variedad de carnes',
-    image: 'https://i.postimg.cc/DyzBZWrD/carnes-mixtas.png',
+    image: 'https://i.postimg.cc/G25TMjT6/carnes-mixtas.png',
     price: 14.0,
   },
   {
@@ -56,7 +47,7 @@ const productsData = [
     name: 'Marinara',
     ingredients: 'Salsa de tomate, ajo, orégano',
     descripcion: 'Pizza simple y clásica sin queso',
-    image: 'https://i.postimg.cc/wjy2XSbQ/Marinara.png',
+    image: 'https://i.postimg.cc/RZBdQMBK/Marinara.png',
     price: 8.0,
   },
   {
@@ -64,7 +55,7 @@ const productsData = [
     name: 'Carnívora',
     ingredients: 'Queso, pepperoni, salchicha, tocino',
     descripcion: 'Una explosión de sabores de carne',
-    image: 'https://i.postimg.cc/C1NsMYzS/Carni-vora.png',
+    image: 'https://i.postimg.cc/L4GN5tQy/Carnivora.png',
     price: 15.0,
   },
   {
@@ -72,7 +63,7 @@ const productsData = [
     name: 'Caprese',
     ingredients: 'Queso mozzarella, tomate, albahaca fresca',
     descripcion: 'Una pizza ligera y fresca con sabores mediterráneos',
-    image: 'https://i.postimg.cc/mDRSGhZm/Caprese.png',
+    image: 'https://i.postimg.cc/90wRsqG0/Caprese.png',
     price: 11.0,
   },
   {
@@ -80,7 +71,7 @@ const productsData = [
     name: 'Mexicana',
     ingredients: 'Queso, carne molida, jalapeños, guacamole',
     descripcion: 'Una pizza picante con toques mexicanos',
-    image: 'https://i.postimg.cc/R01cG91K/Mexicana.png',
+    image: 'https://i.postimg.cc/F1tdvsZZ/Mexicana.png',
     price: 12.0,
   },
   {
@@ -88,7 +79,7 @@ const productsData = [
     name: 'Napolitana',
     ingredients: 'Queso mozzarella, anchoas, aceitunas',
     descripcion: 'Inspirada en la tradición napolitana',
-    image: 'https://i.postimg.cc/QNfJRX2q/Napolitana.png',
+    image: 'https://i.postimg.cc/vm8vk3Dm/Napolitana.png',
     price: 10.0,
   },
   {
@@ -96,7 +87,7 @@ const productsData = [
     name: 'Mediterranean',
     ingredients: 'Queso feta, aceitunas, tomates secos, espinacas',
     descripcion: 'Una pizza inspirada en los sabores del Mediterráneo',
-    image: 'https://i.postimg.cc/qqDcnLsF/Mediterranean.png',
+    image: 'https://i.postimg.cc/7Y7X25pq/Mediterranean.png',
     price: 12.0,
   },
   {
@@ -104,7 +95,7 @@ const productsData = [
     name: 'Primavera',
     ingredients: 'Queso, espárragos, champiñones, cebolla roja',
     descripcion: 'Una pizza llena de ingredientes frescos y coloridos',
-    image: 'https://i.postimg.cc/DwXQJ18C/Primavera.png',
+    image: 'https://i.postimg.cc/d0W9YrTj/Primavera.png',
     price: 11.0,
   },
 ];
